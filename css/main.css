@@ -1,3 +1,27 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.start a {
+  outline: 1px solid yellow;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 2em;
+  vertical-align: middle;
+  }
+
+ a:link {
+ text-decoration: none;
+  }
+.menu li {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+nav {
+  outline: 1px solid red;
+
+}
