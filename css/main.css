@@ -261,7 +261,7 @@ button  {
   }
 
 .contact-me {
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
   width: 100%;
   height: 700px;
 }
@@ -322,36 +322,62 @@ textarea {
   background-color:#2c3e50;
   color: #fff;
   text-align: center!important;
-  column-count: 3;
-
-
+  position: relative;
+  display: inline-block;
 
     }
 
-    .colum-1 {
-      position: relative;
-      top: 20px;
+  .colum-1 {
       outline: 1px solid red;
       height: 150px;
-      width: 200px;
-      position: relative;
-      top: 55px;
+      width: 300px;
+      position: absolute;
+      left: 100px;
+      font-size: 1.30rem;
+      bottom: 250px;
     }
-    .colum-2 {
-      position: relative;
-      top: 20px;
+
+  .colum-2 {
       outline: 1px solid red;
       height: 150px;
-      width: 200px;
+      width: 400px;
       position: relative;
-      top: 55px;
+      left: 400px;
+      font-size: 1.75rem;
+      margin-left: 15px;
+      top: 53px;
     }
-    .colum-3{
-      position: relative;
-      top: 20px;
+
+  .colum-3{
       outline: 1px solid red;
-      height: 300px;
-      width: 200px;
+      height: 150px;
+      width: 400px;
       position: relative;
-      top: 55px;
+      left: 850px;
+      bottom: 150px;
+      font-size: 1.75rem;
+      margin-left: 15px;
+      bottom: 100px;
     }
+    .melrose {
+      position: relative;
+      margin-top: 35px;
+    }
+    .source {
+      position: relative;
+      margin-top: 35px;
+      font-size: 1.25rem;
+    }
+     .colum-2 i {
+      position: relative;
+      top: 45px;
+     }
+
+     .coorporation {
+      position: relative;
+      width: 100%;
+      bottom: 60px;
+      text-align: center;
+      color: #fff;
+      font-size: 1.15rem;
+     }
