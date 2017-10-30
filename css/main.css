@@ -98,9 +98,7 @@ h1 {
   margin-right:15px;
 }
 
-
-
-p {
+.web {
   font-size:1.75em;
   color: #fff;
   position: relative;
@@ -108,4 +106,212 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+h2{
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 5%;
+
+}
+.images {
+width:100%;
+/*outline: 1px solid red;*/
+text-align: center;
+position: relative;
+top: 6%;
+}
+.cabin {
+/*outline: 1px solid green;*/
+width: 355px;
+height: 255px;
+margin:30px;
+}
+.cake {
+  width: 355px;
+  height: 255px;
+  margin:30px;
+}
+.circus {
+  width: 355px;
+  height: 255px;
+  margin:30px;
+}
+.game {
+  width: 355px;
+  height: 255px;
+  margin:30px;
+}
+.safe {
+  width: 355px;
+  height: 255px;
+  margin:30px;
+}
+.submarine{
+  width: 355px;
+  height: 255px;
+  margin:30px;
+}
+
+
+.icon-dos {
+  font-size: 2em;
+  position: relative;
+  left: 540px;
+  right: 540px;
+  top: 70px;
+  color: #000;
+
+}
+
+.icon-dos:after {
+  content:'';
+  width: 105px;
+  height:5px;
+  background-color:#000;
+  display: inline-block;
+  transform: translateY(-220%);
+  margin-right: 15px;
+}
+
+.icon-dos:before {
+  content:'';
+  width: 105px;
+  height:5px;
+  background-color:#000;
+  display: inline-block;
+  transform: translateY(-220%);
+  margin-right:15px;
+}
+.portafolio {
+  height: 790px;
+  width: 100%;
+  /*outline: 1px solid yellow;*/
+}
+
+.about {
+  /*outline: 1px solid green;*/
+  width: 100%;
+  height: 800px;
+  background: #18bc9c;
+
+}
+
+.textabout {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.icon-tres {
+  font-size: 2em;
+  position: relative;
+  left: 540px;
+  right: 540px;
+  top: 115px;
+  color: #fff;
+
+}
+
+.icon-tres:after {
+  content:'';
+  width: 105px;
+  height:5px;
+  background-color:#fff;
+  display: inline-block;
+  transform: translateY(-220%);
+  margin-right: 15px;
+}
+
+.icon-tres:before {
+  content:'';
+  width: 105px;
+  height:5px;
+  background-color:#fff;
+  display: inline-block;
+  transform: translateY(-220%);
+  margin-right:15px;
+}
+.div-text{
+  column-count: 2;
+  position: relative;
+  top: 150px;
+  width: 600px;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  left: 400px;
+}
+
+button  {
+  font-size: 20px;
+  position: relative;
+  left: 600px;
+  right:600px;
+  top: 200px;
+  color: #fff;
+  background: transparent;
+
+  }
+  button i {
+    margin: 15px;
+  }
+
+.contact-me {
+  outline: 1px solid yellow;
+  width: 100%;
+  height: 700px;
+}
+
+.icon-cuatro {
+  font-size: 2em;
+  position: relative;
+  left: 540px;
+  right: 540px;
+  top: 50px;
+  color: #000;
+}
+
+.icon-cuatro:after {
+  content:'';
+  width: 105px;
+  height:5px;
+  background-color:#000;
+  display: inline-block;
+  transform: translateY(-220%);
+  margin-right: 15px;
+}
+
+.icon-cuatro:before {
+  content:'';
+  width: 105px;
+  height:5px;
+  background-color:#000;
+  display: inline-block;
+  transform: translateY(-220%);
+  margin-right:15px;
+}
+
+input {
+  display: block;
+  margin: 16px;
+  position: relative;
+  left: 300px;
+  top: 70px;
+  font-size:2em;
+}
+textarea {
+  margin: 16px;
+  position: relative;
+  left: 300px;
+  top: 70px
+}
+ #b-send {
+  font-weight: 700;
+    color: #fff;
+    border-color: #18bc9c;
+    background-color: #18bc9c;
 }
