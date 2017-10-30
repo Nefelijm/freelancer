@@ -6,22 +6,32 @@
 }
 
 .start a {
-  outline: 1px solid yellow;
-  text-transform: uppercase;
-  color: #000;
+  /*outline: 1px solid yellow;*/
+  color: #fff;
   font-size: 2em;
-  vertical-align: middle;
+  position: relative;
+  left: 115px;
+  top: 40px;
   }
 
  a:link {
  text-decoration: none;
   }
+
 .menu li {
   display: inline-block;
   position: relative;
-  left: 80%;
+  left: 70%;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #fff;
 }
 nav {
-  outline: 1px solid red;
-
+ outline: 1px solid red;
+ height:110px;
+ background-color: #2c3e50;
+ text-transform: uppercase;
+}
+figure {
+  
 }
