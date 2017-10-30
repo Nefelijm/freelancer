@@ -18,13 +18,14 @@
  text-decoration: none;
   }
 
-.menu li {
+.menu a {
   display: inline-block;
   position: relative;
   left: 70%;
   vertical-align: middle;
   font-size: 15px;
   color: #fff;
+  margin-left: 20px;
 }
 nav {
  /*outline: 1px solid red;*/
@@ -123,12 +124,19 @@ text-align: center;
 position: relative;
 top: 6%;
 }
+
+
 .cabin {
 /*outline: 1px solid green;*/
 width: 355px;
 height: 255px;
 margin:30px;
 }
+
+.images img:hover{
+  opacity:0.1;
+  }
+
 .cake {
   width: 355px;
   height: 255px;
@@ -185,13 +193,13 @@ margin:30px;
   transform: translateY(-220%);
   margin-right:15px;
 }
-.portafolio {
+#portafolio {
   height: 790px;
   width: 100%;
   /*outline: 1px solid yellow;*/
 }
 
-.about {
+#about {
   /*outline: 1px solid green;*/
   width: 100%;
   height: 800px;
@@ -239,32 +247,39 @@ margin:30px;
   column-count: 2;
   position: relative;
   top: 150px;
-  width: 600px;
+  width: 800px;
   color: #fff;
   font-size: 20px;
   position: relative;
-  left: 400px;
+  left: 300px;
+  margin: 15px;
 }
 
 button  {
-  font-size: 20px;
+  font-size: 25px;
   position: relative;
-  left: 600px;
+  left: 550px;
   right:600px;
   top: 200px;
   color: #fff;
   background: transparent;
+  border-radius: 8px;
 
   }
-  button i {
-    margin: 15px;
+
+button i {
+  margin: 15px;
+  border-radius: 5px;
+  font-size: 25px;
   }
 
-.contact-me {
+
+#contact-me {
   /*outline: 1px solid yellow;*/
   width: 100%;
   height: 700px;
 }
+
 
 .icon-cuatro {
   font-size: 2em;
@@ -297,12 +312,16 @@ button  {
 
 input {
   display: block;
-  margin: 16px;
+  margin: 26px;
   position: relative;
   left: 300px;
   top: 70px;
-  font-size:2em;
+  font-size:1em;
+  border-radius: 4px;
+
 }
+
+
 textarea {
   margin: 16px;
   position: relative;
@@ -328,7 +347,7 @@ textarea {
     }
 
   .colum-1 {
-      outline: 1px solid red;
+      /*outline: 1px solid red;*/
       height: 150px;
       width: 300px;
       position: absolute;
@@ -338,7 +357,7 @@ textarea {
     }
 
   .colum-2 {
-      outline: 1px solid red;
+      /*outline: 1px solid red;*/
       height: 150px;
       width: 400px;
       position: relative;
@@ -349,7 +368,7 @@ textarea {
     }
 
   .colum-3{
-      outline: 1px solid red;
+      /*outline: 1px solid red;*/
       height: 150px;
       width: 400px;
       position: relative;
@@ -381,3 +400,17 @@ textarea {
       color: #fff;
       font-size: 1.15rem;
      }
+
+   .colum-2 i {
+     text-align: center;
+     width: 45px;
+     height: 45px;
+     border-style: solid;
+     margin-left: 15px;
+     border-radius: 50%;
+   }
+
+   .colum-2 i:hover {
+     background-color: #fff;
+     color:#28a745;
+   }

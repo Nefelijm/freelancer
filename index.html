@@ -10,30 +10,31 @@
    <nav>
       <div class="#">
         <div class="start">
-          <a href="conteiner"> start bootstrap</a>
+          <a href="#cont" > start bootstrap </a>
         </div>
       <div class="menu">
           <ul>
-            <li> portfolio </li>
-            <li> about </li>
-            <li> contact </li>
-          </ul>
+             <a href="#portafolio"> portafolio </a>
+             <a href="#about"> about </a>
+             <a href="#contact-me"> contact </a>
+         </ul>
       </div>
       </div>
     </nav>
-   <header>
-    <figure>
-      <img class="person" src="assets/images/profile.png" alt="">
-    </figure>
-    <h1> START BOOTSTRAP </h1>
-    <div class="icon">
-     <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
-    <p class="web">Web Developer - Graphic Artist - User Experince Designer </p>
+   <header id="cont">
+
+       <figure>
+         <img class="person" src="assets/images/profile.png" alt="">
+       </figure>
+       <h1> START BOOTSTRAP </h1>
+       <div class="icon">
+        <i class="fa fa-star" aria-hidden="true"></i>
+       </div>
+       <p class="web">Web Developer - Graphic Artist - User Experince Designer </p>
 
    </header>
    <main>
-    <section class="portafolio">
+    <section id="portafolio">
      <h2>PORTAFOLIO</h2>
      <div class="icon-dos">
       <i class="fa fa-star" aria-hidden="true"></i>
@@ -47,7 +48,8 @@
        <img src="assets/images/portfolio/submarine.png" alt="submarine" class="submarine">
      </figure>
     </section>
-    <section class="about">
+
+    <section id="about">
     <h2 class="textabout">ABOUT</h2>
     <div class="icon-tres">
      <i class="fa fa-star" aria-hidden="true"></i>
@@ -60,16 +62,16 @@
     <button type="button" name="button"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</button>
 
    </section>
-    <section class="contact-me">
+    <section id="contact-me">
       <h2 class="contact">CONTACT ME</h2>
       <div class="icon-cuatro">
        <i class="fa fa-star" aria-hidden="true"></i>
       </div>
       <form class="dates">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <textarea name="name" rows="8" cols="80"></textarea>
+        <input type="text" placeholder="Name:">
+        <input type="text" placeholder="Email Address:">
+        <input type="text" placeholder="Phone Number:">
+        <textarea name="name" rows="8" cols="80" placeholder="Message:"></textarea>
         <input type="submit" value="Send" id="b-send">
       </form>
     </section>
